@@ -42,3 +42,8 @@
 // Define ZIPPYB5 if a ZIPPY B5 Side Switch is used instead of a rotary switch
 ///#define ZIPPYB5
 
+
+#define CONFIG_DISPLAY_TYPE OLED_SSD1306 // Or U8G2 depending on code implementation
+#define PIN_I2C_SDA 21
+#define PIN_I2C_SCL 22
+
